@@ -1,1 +1,60 @@
-/* место для вашего кода */
+/* ===== HEADER STYLES ===== */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px;
+}
+
+/* Меню */
+.header__menu {
+    justify-self: start;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.header__links-list-item {
+    font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link {
+    text-underline-offset: 4px;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+/* Логотип */
+.header__logo {
+    display: block;
+    width: 148px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+/* Адрес */
+.header__address {
+    justify-self: end;
+    font-size: 18px;
+    line-height: 1.35;
+    font-style: normal;
+}
+
+.address {
+    max-width: 240px;
+}
+
+.address a {
+    text-underline-offset: 4px;
+}
