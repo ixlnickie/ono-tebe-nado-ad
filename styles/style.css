@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ОСТАЛЬНОЙ CSS БЕЗ ИЗМЕНЕНИЙ */
+/* ===== HEADER ===== */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -158,11 +158,13 @@ body {
 
 .lots__card-list-item {
     flex: 1;
-    min-width: 350px;
+    min-width: 0;
 }
 
 .card-link {
     text-decoration: none;
+    display: block;
+    height: 100%;
 }
 
 .card {
@@ -170,7 +172,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 450px;
+    height: 450px;
     padding: 50px 40px;
     color: #fff;
     background-size: cover;
