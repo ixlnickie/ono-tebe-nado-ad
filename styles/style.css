@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 183px;
+  gap: 118px;
 }
 
 .content-section {
@@ -11,7 +11,7 @@ main {
 
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 2fr 1.5fr;
+  grid-template-columns: 1.51fr 0fr 1.5fr;
   align-items: center;
   padding: 92px 51px 89px;
 }
@@ -61,6 +61,7 @@ main {
 .header__address {
   justify-self: end;
   font-style: inherit;
+  margin-right: 37px
 }
 
 .address__item {
@@ -123,7 +124,7 @@ main {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 18px;
 }
 
 /* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
@@ -173,7 +174,7 @@ main {
 }
 
 .lots__heading {
-  padding: 0 0 30px 40px;
+  padding: 51px 0px 30px 15px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -257,7 +258,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  padding: 0 50px;
+  padding: 0px 22px;
+
 }
 
 .about__column {
@@ -304,7 +306,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 80px;
+  padding: 185px 50px 80px;
 }
 
 .footer__social-icon {
